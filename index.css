@@ -103,7 +103,7 @@ nav button {
 
 .second-section {
     background-color: blanchedalmond;
-    background-image: url(/images/edward-unsplash-blur.jpg);
+    background-image:url(images/edward-unsplash-blur.jpg);
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
