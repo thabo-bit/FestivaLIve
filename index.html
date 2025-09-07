@@ -12,25 +12,27 @@
 
 <body>
 
-    <section class="top-section">
+    <section id="Home" class="top-section">
         <video src="images/pexels-2022395.mp4" autoplay loop muted>
 
         </video>
 
         <div class="content">
 
-            <nav>
+            <nav id="navigation">
                 <ol class="logo">
                     <li>festiva live</li>
                 </ol>
 
                 <ol class="nav-links">
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>Artist</li>
-                    <li>Schedule</li>
-                    <li>Pricing</li>
-                    <li>Contacts</li>
+
+                    <li><a style="color:white;" href="#Home">Home</a></li>
+                    <li><a style="color:white;" href="#Contact">Contacts</a></li>
+                    <li><a style="color:white;" href="#Artist">Artist</a></li>
+                    <li><a style="color:white;" href="#Schedule">Schedule</a></li>
+                    <li><a style="color:white;" href="#Pricing">Pricing</a></li>
+
+
                     <button>Buy Tickets</button>
                 </ol>
 
@@ -46,16 +48,17 @@
                 <p><img src="images/clock_loader_40_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg"> 10-12,Dec 2025</p>
                 <p><img src="images/location_on_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg">Queen's Club,Northern Cape
                 </p>
-                <p>Share: <img src="images/facebook-brands-solid-full.svg" width="27px"> 
-                    <img src="images/x-twitter-brands-solid-full.svg" width="27px"> 
-                    <img src="insta.svg" width="27px"></p>
+                <p>Share: <img src="images/facebook-brands-solid-full.svg" width="27px">
+                    <img src="images/x-twitter-brands-solid-full.svg" width="27px">
+                    <img src="insta.svg" width="27px">
+                </p>
             </div>
 
         </div>
     </section>
 
 
-    <section class="second-section">
+    <section id="About" class="second-section">
         <div class="about">
             <h1>About Festava 2025</h1>
 
@@ -77,7 +80,7 @@
             <p>
                 Please tell your friends about our website. Thank you.
             </p>
-        
+
 
         </div>
 
@@ -97,7 +100,7 @@
     </section>
 
 
-    <section class="lower">
+    <section id="Artist" class="lower">
         <div class="head">
             <p>Meet Artists</p>
         </div>
@@ -109,7 +112,9 @@
             </div>
 
             <div class="Artist">
+
                 <img src="images/abstral-official-bdlMO9z5yco-unsplash.jpg" width="530px">
+
                 <img src="images/soundtrap-rAT6FJ6wltE-unsplash.jpg" width="530px">
             </div>
 
@@ -117,7 +122,7 @@
     </section>
 
 
-    <div class="back">
+    <div id="Schedule" class="back">
         <section class="schedule">
             <h2>Event Schedule</h2>
             <table>
@@ -178,7 +183,7 @@
 
     <section>
 
-        <div class="pricing-container">
+        <div id="Pricing" class="pricing-container">
             <h1>Plans, you'll love</h1>
             <div class="cards-wrapper">
 
@@ -219,22 +224,22 @@
     </section>
 
 
-    <section class="lower-sec">
+    <section id="Contact" class="lower-sec">
         <div class="heading">
             <p>Interest? let's talk</p>
         </div>
 
         <div class="coloring">
             <div class="options">
-                <button class="op1">Contact Form</button>
-                <button>Google Maps</button>
+                <button class="op1" onclick="contact()">Contact Form</button>
+                <button onclick="button()">Google Maps</button>
             </div>
         </div>
 
-        <div  class="containter">
+        <div class="containter">
 
-            <div class="form-container">
-                <div class="form">
+            <div id="parent" class="form-container">
+                <div id="child" class="form">
 
                     <div class="tired">
                         <input class="name" type="text" placeholder="Full Name">
@@ -253,8 +258,66 @@
         </div>
 
 
+
+
+
+
+
     </section>
 
+    <footer>
+
+        <div class="items">
+            <p>Festiva Live</p>
+
+            <div class="footer">
+                <img src="images/facebook-brands-solid-full.svg" alt="">
+                <img src="images/instagram-brands-solid-full(1).svg" alt="">
+                <img src="/images/pinterest-brands-solid-full.svg" alt="">
+                <img src="/images/youtube.svg" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="footer-items">
+
+            <div class="links">
+                <h3>Links</h3>
+                <div class="linkings">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Artist</li>
+                        <li>Schedule</li>
+                        <li>Pricing</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="footer-contacts">
+                <h3>Have Questions?</h3>
+                <p>071 549 0395</p>
+                <a href="mailto:richardramashala@gmail.com">richardramashala6@gmail.com</a>
+            </div>
+
+
+            <div class="location">
+                <h3>Location</h3>
+                <p>Silang Junction South, Tagaytay,<br> Cavite, Philippines</p>
+                <a>Our Maps</a>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <script src="index.js">
+    </script>
 </body>
 
 </html>

@@ -19,7 +19,10 @@
 }
 
 nav {
-
+    position: fixed;
+   width: 100vw;
+   z-index: 3;
+    top: 0;
     display: flex;
     color: white;
     align-items: center;
@@ -34,6 +37,9 @@ nav ol {
     justify-content: space-between;
     gap: 20px;
 
+}
+nav li{
+   color: white;
 }
 
 nav ul {
@@ -188,7 +194,10 @@ nav button {
 .Artist img {
     margin-top: 20px;
     border-radius: 12px;
+
 }
+
+
 
 .quiter {
     border-radius: 20px;
@@ -532,4 +541,93 @@ textarea {
 }
 .lower-sec{
     background-color: whitesmoke;
+}
+.scrolled{
+    background-color: #0c0c0c
+}
+a:link{
+    text-decoration: none;
+    color: bisque;
+}
+
+.map-container {
+    background-color: #dee1e4;
+    display: inline-block;
+    margin-left: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+.footer img{
+    width: 32px;
+}
+.footer img:hover{
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #e74c3c;
+}
+.footer{
+    display: flex;
+    gap: 4px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 40px;
+    background-color:#f48024;
+    margin-top: 20px;
+}
+.linkings{
+    display: flex;
+   
+    align-items: center;
+
+}
+.linkings ul{
+  list-style: none;
+  display: flex;
+   gap: 20px;
+}
+.links{
+    color: white;
+   
+}
+.links h3{
+    color: #f48024;
+    margin-left: 30px;
+}
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: black;
+}
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+   color: white;
+    margin: 0;
+    padding: 0;
+}
+.footer-contacts p{
+    margin: 1px;
+}
+.footer-contacts a{
+    margin: 1px;
+}
+.footer-contacts h3{
+  color: #f48024;
+ font-weight: bold;
+}
+.location h3{
+    font-weight: bold;
+    color: #f48024;
+}
+.location{
+    color: white;
 }
